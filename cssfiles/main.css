@@ -1,0 +1,182 @@
+/*Learn how to change properties of the horizontal line*/
+/*how to locate the icon inside of the search rectangle*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(84, 128, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.frame{
+    width: 80%;
+    height: 80%; 
+    background-color: #fff;
+    display: flex; /*why?*/
+    border-radius: 50px;
+    /*box-shadow: 0px 15px 46px 3px rgba(0, 0, 0, 0.75);*/
+    padding: 50px; /*decide the coordinates of the text*/
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body ul li{
+    margin-bottom: 20px;
+} /*if you want to change space between list items, you've to mention "ul & li"*/
+
+.body ul li a{
+    color: black;
+}
+
+.footer ul li{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: black;
+    text-align: left;
+}
+hr{
+    border-left: 150px solid black;
+}
+.vl{
+    border-left: 2px solid black;
+    height: 500px;
+    position: relative;
+    margin-left: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container_search{
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+form.search input[type=text] {
+    font-size: 5vh;
+    /*if you want to change the size of 
+    the rectangle in which the word "search" is written*/
+    /*the problem is that I cannot only affect the width*/
+    border-radius: 10px;
+    padding-right: 250px; /*it can change the width of the search rectangle*/
+}
+form.search button[type=submit] {
+    font-size: 5vh; 
+}
+form.bars button[type=submit]{
+    font-size: 5vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.dashboard{
+    width: 200px;
+    height: 50px;
+    padding-top: -40px;
+    /*problems with altering the psoition*/
+}
+.text1{
+    padding-left: 100px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.boxes{
+    height: 209px;
+    width: 800px;
+    left: 420px;
+    top: 329px;
+    padding-left: 70px;
+}
+.total_likes{
+    box-sizing: border-box;
+    background-color: #5480F3;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+.comments{
+    box-sizing: border-box;
+    background-color: rgb(255, 246, 162);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+.total_share{
+    box-sizing: border-box;
+    background-color: rgb(255, 162, 216);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+.recent_activity{
+    padding-top: 130px;   
+}
+.text2{
+    padding-left: 100px;
+}
+table {
+    border-spacing: 20px;
+    padding-left: 100px;
+}
+td, th{
+    text-align: left;
+}
+
+/*form .search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+form.search button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }*/
+      
+
+
+
+
