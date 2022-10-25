@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="../cssfiles/main1.css"/>
 </head>
 <body>
+    <!--nav_start-->
         <nav>
+            <div>
+                <h1>Logo</h1>
+            </div>
             <div class="navigation">
                 <ul>
                     <li><a href="#">HOME</a></li>
@@ -18,14 +22,12 @@
                 </ul>
             </div>
             <div class="button">
-                <div class="login">
-                    <button>Log in</button>
-                </div>
-                <div class="signup">
-                    <button>Sign up</button>
-                </div>
+                    <button class="log_in">Log in</button>
+                    <button class="sign_up">Sign up</button>
             </div>
         </nav>
+    <!--nav_end-->
+    <!--section_start-->
         <section>
             <div class="text">
                 <div class="heading">
@@ -42,20 +44,15 @@
                             <form action="/action_page.php">
                                 <input type="text" id="email" name="email" placeholder="Enter you email"><br>
                             </form>
-                            <form action="/action_page.php">
-                                <input type="text" id="start" name="start" placeholder="Get Started"><br>
-                            </form>
+                            <button class="get_started">Get Started</button>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div class="platforms"> <!--how to change the position-->
-                    <ul>
-                        <li>Medium</li>
-                        <li>Microsoft</li>
-                        <li>Google</li>
-                    </ul>
+                    <h4><a href="#">Medium</a> <a href="#">Microsoft</a> <a href="#">Google</a></h4>
                 </div>
             </div>
         </section>
+    <!--section_end-->
 </body>
 </html>
